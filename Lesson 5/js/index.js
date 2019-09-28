@@ -26,3 +26,30 @@ console.log(array1);
 /*****************Task3*******************/
 
 //Task4
+var stack = [];
+stack.push(2);
+stack.push(5);
+stack.push(5);
+stack.push(5);
+stack.push(5);
+stack.push(5);
+stack.push(3);
+
+
+var i = stack.pop();
+alert(i);
+
+var host = [];
+host.push(2);
+host.push(5);
+host.push(5);
+host.push(5);
+host.push(5);
+
+
+var i = host.shift();
+alert(i);
+
+if(stack[i] == host[i]){
+  alert("Item is already exist in stack")
+}
